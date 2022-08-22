@@ -272,6 +272,7 @@
     cursor: pointer;
   }
   .final-body {
+    border-style: solid;
     border-color: hsl(233, 12%, 13%);
     background-color: hsl(233, 12%, 13%);
     width: 1440px;
@@ -389,7 +390,7 @@
     flex-direction: column;
     text-align: center;
     transition: 2s;
-    left: 5px;
+    left: -5px;
     top: -100%;
     z-index: 200;
   }
@@ -675,6 +676,7 @@
   }
   .final-body {
     border-style: solid;
+    border-color: hsl(233, 12%, 13%);
     background-color: hsl(233, 12%, 13%);
     width: 375px;
     height: 630px;
