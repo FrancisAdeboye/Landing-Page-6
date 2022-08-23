@@ -101,6 +101,24 @@
     width: 350px;
     margin-bottom: 40px;
   }
+  .button-1 {
+    width: 150px;
+    padding: 10px;
+    margin-right: 120px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 14px;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    box-shadow: 0px 10px 15px 0px hsl(12, 82%, 82%);
+  }
+  .button-1:hover {
+    cursor: pointer;
+    color: hsl(12, 88%, 59%);
+    background-color: white;
+  }
+
   .img-side {
     position: absolute;
     top: 200px;
